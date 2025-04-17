@@ -76,6 +76,7 @@ class GraphRAG:
     # entity extraction
     entity_extract_max_gleaning: int = 1
     entity_summary_to_max_tokens: int = 500
+    entity_extract_method: str = "LLM_intelligence" # or "NLP"
 
     # graph clustering
     graph_cluster_algorithm: str = "leiden"
